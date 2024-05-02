@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.product-container {
+    background: #fff;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.main-img {
+    width: 100%;
+    margin: 10px;
+    transition: 0.5s;
+    height: 400px;
+
+}
+
+.main-img:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+
+}
+
+.icon {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px #d5ded7;
+}
+
+.card-img {
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+    transition: 0.5s;
+    color: #9ca19d;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+    border: 1px solid blue;
+}
+
+.style {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #fff;
+    background: #056b20;
+    padding: 10px 10px 4px 4px;
+}
+
+.content-heading {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #111;
+    padding-top: 10px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Roboto";
+    padding-top: 10px;
+
+}
+
+.icons1 {
+    font-size: 20px;
+}
+
+.sub-price {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #555;
+    padding-left: 10px;
+    text-decoration: line-through;
+
+}
+
+.rating {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto";
+    border-radius: 20px;
+    color: #fff;
+    background: #056b20;
+    padding: 10px 10px 10px 10px;
+}
+
+.icons4 {
+    font-size: 15px;
+}
+
+.color {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #111;
+}
+
+.info {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #111;
+    font-weight: 600;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 1px #e8e2e1;
+}
+
+.size {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #111;
+}
+
+.btn1 {
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #555;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+    background: #d9d5d4;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    border: 0;
+    outline: 0;
+}
+
+.btn2 {
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #555;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+    background: #d9d5d4;
+    transition: 0.5s;
+    text-decoration: line-through;
+    border: 1px dotted #888;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    border: 0;
+    outline: 0;
+}
+
+.add {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #fff;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    background: #1e15d1;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.add:hover {
+    transform: scale(1.1);
+    background: #f516e6;
+}
+
+.add1 {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.offer {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #068a1c;
+}

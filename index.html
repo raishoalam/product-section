@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/af8ededad6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="product-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <div class="main-image">
+                        <div class="icons">
+                            <i class="fa-solid fa-share-nodes icon"></i>
+                        </div>
+                        <img class="main-img" id="imgs" src="https://rukminim1.flixcart.com/image/832/832/k3yrte80/shoe/h/8/p/sd0323g-10-sparx-white-black-original-imafmz8fpbn55gjz.jpeg?q=70" alt="" />
+                    </div>
+
+
+                    <div class="card-image">
+                        <img class="card-img" src="https://rukminim1.flixcart.com/image/832/832/k3yrte80/shoe/h/8/p/sd0323g-10-sparx-white-black-original-imafmz8fpbn55gjz.jpeg?q=70" alt="" onclick="Img(this)" />
+                        <img class="card-img" src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/3/9/i/-original-imaghbm5gzewdyxb.jpeg?q=70" alt="" onclick="Img(this)" />
+                        <img class="card-img" src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/a/y/4/-original-imaghbm5bu39mkq8.jpeg?q=70" alt="" onclick="Img(this)" />
+                        <img class="card-img" src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/m/6/3/-original-imaghbm5mpzy3wew.jpeg?q=70" alt="" onclick="Img(this)" />
+                        <img class="card-img" src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/5/e/j/-original-imaghbm5h6f7wvnn.jpeg?q=70" alt="" onclick="Img(this)" />
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 mt-5 mb-5">
+                    <div class="content">
+                        <span class="style">Brand Sparx</span>
+                        <h1 class="content-heading">SD0323G Casuals For Men (White, Black)</h1>
+                        <p> <span class="price"><i class="fa-solid fa-indian-rupee-sign icons1"></i>800</span> <span class="sub-price"><i class="fa-solid fa-indian-rupee-sign icons1"></i>1,000 </span> <span class="offer"> 19% off </span></p>
+
+                        <p class="info"> Rating <span class="rating"> 4.3 <i class="fa-solid fa-star icons4"></i></span> </p>
+                        <hr />
+                        <p class="color">COLOR</p>
+                        <div class="">
+                            <button class="btn btn-primary "></button>
+                            <button class="btn btn-dark"></button>
+                            <button class="btn btn-info"></button>
+                            <button class="btn btn-warning"></button>
+                            <button class="btn btn-danger"></button>
+                        </div>
+                        <hr />
+                        <p class="size">SIZE</p>
+                        <div class="">
+                            <button class="btn1">6</button>
+                            <button class="btn1">7</button>
+                            <button class="btn1">8</button>
+                            <button class="btn1">9</button>
+                            <button class="btn2">10</button>
+                        </div>
+                        <hr />
+                        <div class="">
+                            <button class="add"><i class="fa-solid fa-cart-shopping add1"></i>ADD TO CART</button>
+                            <button class="add">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let getItem = document.getElementById("imgs");
+
+         function Img(NewItem) {
+         getItem.src = NewItem.src;
+}
+    </script>
+</body>
+
+</html>
